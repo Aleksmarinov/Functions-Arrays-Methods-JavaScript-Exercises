@@ -1,0 +1,7 @@
+function celsiusToFahrenheit(input){
+    let tempC = Number(input[0]);
+    let tempF = 32 + tempC * (9/5);
+
+    console.log(tempF.toFixed(2));
+}
+celsiusToFahrenheit(["25"])
